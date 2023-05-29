@@ -99,3 +99,30 @@ ul {
     width: 150px;
     border: 3px solid #3882F6;
 }
+
+/*body3 styling*/
+.body3 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 100px 150px 100px 150px;
+    background-color: #e5e7eb;
+}
+
+.quote {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 300;
+    color: #1F2937;
+    margin: 0;
+}
+
+.attribution {
+    font-size: 24px;
+    color: #1F2937;
+    font-weight: bold;
+    align-self: self-end;
+    margin: 0;
+}
+
+
