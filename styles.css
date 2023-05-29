@@ -69,7 +69,7 @@ ul {
 /*body2 styling*/
 .body2{
     display: flex;
-    padding: 40px 100px 50px 100px;
+    padding: 20px 100px 50px 100px;
     flex-direction: column;
     align-items: center;
 }
@@ -125,4 +125,41 @@ ul {
     margin: 0;
 }
 
+.body4 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 100px;
+}
 
+.content-box {
+    background-color: #3882F6;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-around;
+    flex: 0 0 75%;
+    padding: 40px 20px 40px 20px;
+    align-items: center;
+}
+
+.top-text, .bottom-text {
+    color: #e5e7eb;
+    padding: 0;
+    margin: 5px;
+}
+
+.top-text {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.body4 button {
+    background-color: #3882F6;
+    border: 2px solid #F9FAF8;
+    color: #F9FAF8;
+    height: 40px;
+    width: 120px;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 8px;
+}
